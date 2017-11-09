@@ -7,7 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": ["*://*.twitter.com/*", "*://twitter.com", "*://twitter.com/*"],
+            "matches": ["*://*.twitter.com/*","*://twitter.com/*"],
             "js": ["cuttag.js"],
             "css": ["styles.css"]
         }
